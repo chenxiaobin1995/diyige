@@ -1,467 +1,385 @@
 @charset "UTF-8";
 html, body {
   width: 100%;
-  height: 100%; 
-}
+  height: 100%; }
 
 /*头部*/
 .head {
-  background: #333333; 
-}
-.head header {
-  width: 1090px;
-  display: flex;
-  height: 36px;
-  margin: auto;
-}
-.head header span {
- width: 278px;
-  font-size: 12px;
-  color: #CC9756;
-  line-height: 36px;
-  border-bottom: 1px solid #CC9756;
-  display: inline;
-  cursor: pointer; 
-}
-.head header span:hover {
-  color: white; 
-}
-.head header ul {
-  margin: auto;
-  margin-left: 30%; 
-}
-.head header ul li {
-  float: left;
-  color: #ccc;
-  font-size: 12px;
-  border-right: 1px solid #eee;
-  padding-right: 15px;
-  margin-right: 10px;
-  cursor: pointer; 
-}
-.head header ul li:hover {
-  color: white; 
-}
-.head header ul .lastli {
-  border-right: none;
-  padding-left: 4px;
-  margin-right: 0px; 
-}
+  background: #333333; }
+  .head header {
+    width: 1090px;
+    display: flex;
+    height: 36px;
+    margin: auto; }
+    .head header span {
+      width: 278px;
+      font-size: 12px;
+      color: #CC9756;
+      line-height: 36px;
+      border-bottom: 1px solid #CC9756;
+      display: inline;
+      cursor: pointer; }
+      .head header span:hover {
+        color: white; }
+    .head header ul {
+      margin: auto;
+      margin-left: 30%; }
+      .head header ul li {
+        float: left;
+        color: #ccc;
+        font-size: 12px;
+        border-right: 1px solid #eee;
+        padding-right: 15px;
+        margin-right: 10px;
+        cursor: pointer; }
+        .head header ul li:hover {
+          color: white; }
+      .head header ul .lastli {
+        border-right: none;
+        padding-left: 4px;
+        margin-right: 0px; }
 
 /* logo */
 .logo {
   width: 1090px;
   margin: auto;
-  background: #FFFFFF; 
-}
-
-.logo .tops {
-  margin-top: 20px;
-  display: flex;
-  margin-bottom: 30px; 
-}
-.logo .tops img {
-  width: 212px;
-  height: 60px; 
-}
-.logo .tops input {
-  width: 440px;
-  height: 38px;
-  margin-left: 150px;
-  border: 1px solid #CC9756;
-  border-bottom-left-radius: 19px;
-  border-top-left-radius: 19px; 
-}
-.logo .tops .iptRight {
-  width: 90px;
-  height: 38px;
-  border-top-right-radius: 19px;
-  border-bottom-right-radius: 19px;
-  cursor: pointer;
-  border: 1px solid #CC9756;
-  border-left: none;
-  color: #fff;
-  line-height: 38px;
-  text-align: center;
-  font-size: 16px;
-  letter-spacing: 1px;
-  background: #CC9756; 
-}
-.logo .tops .shopcat {
-  position: relative;
-  cursor: pointer;
-  width: 134px;
-  height: 38px;
-  border: 1px solid #CC9756;
-  border-radius: 19px;
-  padding: 8px 0;
-  margin-left: 64px; 
-}
-.logo .tops .shopcat a {
-  text-align: center;
-  color: #CC9756;
-  font-size: 14px;
-  margin-left: 45px; 
-}
-.logo .buttoms {
-  width: 1090px;
-  display: flex;
-  justify-content: space-between; 
-}
-.logo .buttoms li {
-  color: #000;
-  cursor: pointer;
-  font-weight: bolder;
-  padding-bottom: 4px;
-  font-size: 16px; 
-}
-.logo .buttoms li:hover {
-  border-bottom: 3px solid #CC9756;
-  color: #CC9756; 
-}
-.logo .buttoms .shouye {
-  border-bottom: 3px solid #CC9756; 
-}
-.logo .buttoms .shouye a {
-  color: #CC9756; 
-}
+  background: #FFFFFF; }
+  .logo .tops {
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 30px; }
+    .logo .tops img {
+      width: 212px;
+      height: 60px; }
+    .logo .tops input {
+      width: 440px;
+      height: 38px;
+      margin-left: 150px;
+      border: 1px solid #CC9756;
+      border-bottom-left-radius: 19px;
+      border-top-left-radius: 19px; }
+    .logo .tops .iptRight {
+      width: 90px;
+      height: 38px;
+      border-top-right-radius: 19px;
+      border-bottom-right-radius: 19px;
+      cursor: pointer;
+      border: 1px solid #CC9756;
+      border-left: none;
+      color: #fff;
+      line-height: 38px;
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 1px;
+      background: #CC9756; }
+    .logo .tops .shopcat {
+      position: relative;
+      cursor: pointer;
+      width: 134px;
+      height: 38px;
+      border: 1px solid #CC9756;
+      border-radius: 19px;
+      padding: 8px 0;
+      margin-left: 64px; }
+      .logo .tops .shopcat a {
+        text-align: center;
+        color: #CC9756;
+        font-size: 14px;
+        margin-left: 45px; }
+  .logo .buttoms {
+    width: 1090px;
+    display: flex;
+    justify-content: space-between; }
+    .logo .buttoms li {
+      color: #000;
+      cursor: pointer;
+      font-weight: bolder;
+      padding-bottom: 4px;
+      font-size: 16px; }
+      .logo .buttoms li:hover {
+        border-bottom: 3px solid #CC9756;
+        color: #CC9756; }
+    .logo .buttoms .shouye {
+      border-bottom: 3px solid #CC9756; }
+      .logo .buttoms .shouye a {
+        color: #CC9756; }
 
 /*banner*/
 .banner {
   height: 420px;
-  margin-bottom: 20px; 
-}
+  margin-bottom: 20px; }
 
 .swiper-container {
-  width: 100%; 
-}
+  width: 100%; }
+
 .swiper-slide {
-  text-align: center; 
-}
+  text-align: center; }
 
 /*新品首发*/
 .goods {
   background: #FFFFFF;
   position: relative;
-  overflow: hidden; 
-}
-.goods .boxLeft {
-  position: absolute;
-  top: 0px;
-  left:5%;
-  width: 110px;
-  height: 364px;
-  text-align: center; 
-}
-.goods .boxLeft li {
-  width: 108px;
-  height: 36px;
-  line-height: 36px;
-  border: 1px solid #ccc;
-  vertical-align: middle;
-  line-height: 14px;
-  color: #333333;
-  cursor: pointer; 
-}
-.goods .boxLeft li h3 {
-  margin: 4px 4px 0px 4px;
-  font-size: 12px; 
-}
-.goods .boxLeft li .firstH3 {
-  color: #BB3343;
-  font-weight: 700;
-}
-.goods .boxLeft li p {
-  font-size: 12px; 
-}
-.goods .boxLeft li .firstP {
-  color: #BB3343;
- font-weight: 700; 
-}
-.goods .boxLeft .firstLi {
-  font-size: 16px;
-  color: #BB3343;
-  text-align: center;
-  line-height: 38px;
-  height: 38px;
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
-  font-weight: 700;
-  cursor: pointer;
-  padding: 0; 
-}
-.goods .boxRight {
-  width: 72px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: center;
-}
-.goods .boxRight img {
-  width: 70px;
-  height: 70px;
-  display: block; 
-}
-.goods .boxRight li {
-  line-height: 17px;
-  color: #BC3B3B;
-  font-size: 12px;
-  text-align: center;
-  cursor: pointer; 
-}
-.goods .boxRight .firstLi {
-  font-size: 12px;
-  text-align: center;
-  line-height: 17px;
-  cursor: pointer;
-  color: #666; 
-}
-.goods .commonHander {
-  width: 1090px;
-  height: 48px;
-  margin: auto;
-  margin-top: 30px; 
-}
-.goods .commonHander h3 {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1;
-  float: left;
-  margin-right: 20px; 
-}
-.goods .commonHander span {
-  padding-top: 13px;
-  line-height: 1;
-  font-size: 14px;
-  float: left; 
-}
-.goods .commonHander i {
-  padding-top: 13px;
-  line-height: 1;
-  float: right; 
-}
-.goods .commonHander i a {
-  color: #333333; 
-}
-.goods .goodscon {
-  width: 1100px;
-  height: 400px;
-  margin: auto; }
-.goods .goodscon .goodsBox {
-  background: #FFFFFF;
-  overflow: hidden; 
-}
-.goods .goodscon .goodsBox div {
-  width: 265px;
-  float: left;
-  background: #F4F4F4;
-  margin-right: 10px;
-  text-align: center; 
-}
-.goods .goodscon .goodsBox div img {
-  width: 265px;
-  height: 265px; 
-}
-.goods .goodscon .goodsBox div span {
-  width: 1px;
-  height: 20px;
-  line-height: 20px;
-  color: #fff !important;
-  background-color: #e36844;
-}
-.goods .goodscon .goodsBox div p {
-  width: 160px;
-  font-size: 13px;
-  color: #333333;
-  font-weight: bolder;
-  text-align: center;
-  margin: auto; 
-}
-.goods .goodscon .goodsBox div h4 {
-  font-size: 13px;
-  color: #d4282d; 
-}
+  overflow: hidden; }
+  .goods .boxLeft {
+    position: absolute;
+    top: 0px;
+    left: 5%;
+    width: 110px;
+    height: 364px;
+    text-align: center; }
+    .goods .boxLeft li {
+      width: 108px;
+      height: 36px;
+      line-height: 36px;
+      border: 1px solid #ccc;
+      vertical-align: middle;
+      line-height: 14px;
+      color: #333333;
+      cursor: pointer; }
+      .goods .boxLeft li h3 {
+        margin: 4px 4px 0px 4px;
+        font-size: 12px; }
+      .goods .boxLeft li .firstH3 {
+        color: #BB3343;
+        font-weight: 700; }
+      .goods .boxLeft li p {
+        font-size: 12px; }
+      .goods .boxLeft li .firstP {
+        color: #BB3343;
+        font-weight: 700; }
+    .goods .boxLeft .firstLi {
+      font-size: 16px;
+      color: #BB3343;
+      text-align: center;
+      line-height: 38px;
+      height: 38px;
+      border-top-right-radius: 4px;
+      border-top-left-radius: 4px;
+      font-weight: 700;
+      cursor: pointer;
+      padding: 0; }
+  .goods .boxRight {
+    width: 72px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center; }
+    .goods .boxRight img {
+      width: 70px;
+      height: 70px;
+      display: block; }
+    .goods .boxRight li {
+      line-height: 17px;
+      color: #BC3B3B;
+      font-size: 12px;
+      text-align: center;
+      cursor: pointer; }
+    .goods .boxRight .firstLi {
+      font-size: 12px;
+      text-align: center;
+      line-height: 17px;
+      cursor: pointer;
+      color: #666; }
+  .goods .commonHander {
+    width: 1090px;
+    height: 48px;
+    margin: auto;
+    margin-top: 30px; }
+    .goods .commonHander h3 {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1;
+      float: left;
+      margin-right: 20px; }
+    .goods .commonHander span {
+      padding-top: 13px;
+      line-height: 1;
+      font-size: 14px;
+      float: left; }
+    .goods .commonHander i {
+      padding-top: 13px;
+      line-height: 1;
+      float: right; }
+      .goods .commonHander i a {
+        color: #333333; }
+  .goods .goodscon {
+    width: 1100px;
+    height: 400px;
+    margin: auto; }
+    .goods .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .goods .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .goods .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .goods .goodscon .goodsBox div span {
+          width: 1px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          background-color: #e36844; }
+        .goods .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .goods .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
 
 /* 福利社*/
 .welfareService {
-  background: #F4f0ea;
-}
-.welfareService .fuli {
-  width: 1090px;
-  margin: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  position: relative; 
-}
-.welfareService .fuli .commonHander2 {
-  height: 48px;
-}
-.welfareService .fuli .commonHander2 h3 {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1;
-  float: left;
-  margin-right: 20px; 
-}
-.welfareService .fuli .commonHander2 i {
-  padding-top: 13px;
-  line-height: 1;
-  float: right; 
-}
-.welfareService .fuli .commonHander2 i a {
-  color: #333333; 
-}
-.welfareService .fuli .shopmian {
-  width: 1090px;
-  overflow: hidden;
-  background: #FFFFFF;
-}
-.welfareService .fuli .shopmian img {
-  width: 224px;
-  height: 376px;
-  float: left;
-  background-color: #FFFFFF; 
-}
-.welfareService .fuli .shopmian .mianC {
-  width: 588px;
-  height: 376px;
-  float: left;
-  background-color: #FFFFFF;
-  padding-left: 30px;
-  border-right: 1px solid #F4F0EA; 
-}
-.welfareService .fuli .shopmian .mianC .mianCtitie {
-  width: 624px;
-  height: 56px;
-  padding-top: 22px;
-  border-bottom: 1px solid #F4F0EA; 
-}
-.welfareService .fuli .shopmian .mianC .mianCtitie h3 {
-  float: left;
-  display: inline; 
-}
-.welfareService .fuli .shopmian .mianC .mianCtitie a {
-  display: block;
-  padding-top: 8px;
-  color: #333;
-  font-size: 12px;
-  float: right; 
-}
-.welfareService .fuli .shopmian .mianC .goodscon {
-  width: 608px; 
-}
-.welfareService .fuli .shopmian .mianC .goodscon .goodsbox {
-  width: 284px;
-  height: 130px;
-  float: left; 
-}
-.welfareService .fuli .shopmian .mianC .goodscon .goodsbox img {
-  width: 130px;
-  height: 130px;
-  float: left; 
-}
-.welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des {
-  width: 130px;
-  float: left; 
-}
-.welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des h3 {
-  width: 130px;
-  font-size: 14px;
-  line-height: 20px;
-  margin-bottom: 5px; 
-}
-.welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des p {
-  width: 130px;
-  font-size: 14px;
-  color: #be4141; 
-}
-.welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des .price {
-  width: 130px;
-  height: 16px; 
-}
-.welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des a {
-  width: 90px;
-  height: 28px;
-  line-height: 28px;
-  background: #be4141;
-  font-size: 12px;
-  color: #ffffff;
-  display: block;
-  text-align: center;
-  border-radius: 1px; 
-}
-.welfareService .fuli .shopmian .mianR {
-  float: left;
-  width: 242px;
-  height: 376px;
-  background-color: #ffffff;
-  padding-left: 21px;
-  padding-right: 21px; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 {
-  padding-top: 10px;
-  margin-bottom: 30px; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 h2 {
-  float: left; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 span {
-  float: right;
-  padding-top: 5px; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 span a {
-  font-size: 12px;
-  color: #333333; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box {
-  float: left;
-  width: 130px;
-  height: 49px;
-  margin-left: 5px;
-  margin-bottom: 20px; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box img {
-  display: block;
-  width: 50px;
-  height: 50px;
-  float: left; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box h4 {
-  width: 230px;
-  height: 19px;
-  font-size: 14px;
-  color: #333333;
-  text-overflow: ellipsis;
-  margin-bottom: 10px; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box div {
-  width: 150px; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box div p {
-  font-size: 14px;
-  color: #be4141;
-  float: left; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box div span {
-  font-size: 14px;
-  color: #ccc;
-  float: right; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 {
-  padding-top: 10px;
-  margin-bottom: 30px; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 h2 {
-  float: left; 
-}
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 span {
-  float: right;
-  padding-top: 5px; 
-}  
-.welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 span a {
-  font-size: 12px;
-  color: #333333; 
-}
+  background: #F4f0ea; }
+  .welfareService .fuli {
+    width: 1090px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative; }
+    .welfareService .fuli .commonHander2 {
+      height: 48px; }
+      .welfareService .fuli .commonHander2 h3 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1;
+        float: left;
+        margin-right: 20px; }
+      .welfareService .fuli .commonHander2 i {
+        padding-top: 13px;
+        line-height: 1;
+        float: right; }
+        .welfareService .fuli .commonHander2 i a {
+          color: #333333; }
+    .welfareService .fuli .shopmian {
+      width: 1090px;
+      overflow: hidden;
+      background: #FFFFFF; }
+      .welfareService .fuli .shopmian img {
+        width: 224px;
+        height: 376px;
+        float: left;
+        background-color: #FFFFFF; }
+      .welfareService .fuli .shopmian .mianC {
+        width: 588px;
+        height: 376px;
+        float: left;
+        background-color: #FFFFFF;
+        padding-left: 30px;
+        border-right: 1px solid #F4F0EA; }
+        .welfareService .fuli .shopmian .mianC .mianCtitie {
+          width: 624px;
+          height: 56px;
+          padding-top: 22px;
+          border-bottom: 1px solid #F4F0EA; }
+          .welfareService .fuli .shopmian .mianC .mianCtitie h3 {
+            float: left;
+            display: inline; }
+          .welfareService .fuli .shopmian .mianC .mianCtitie a {
+            display: block;
+            padding-top: 8px;
+            color: #333;
+            font-size: 12px;
+            float: right; }
+        .welfareService .fuli .shopmian .mianC .goodscon {
+          width: 608px; }
+          .welfareService .fuli .shopmian .mianC .goodscon .goodsbox {
+            width: 284px;
+            height: 130px;
+            float: left; }
+            .welfareService .fuli .shopmian .mianC .goodscon .goodsbox img {
+              width: 130px;
+              height: 130px;
+              float: left; }
+            .welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des {
+              width: 130px;
+              float: left; }
+              .welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des h3 {
+                width: 130px;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 5px; }
+              .welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des p {
+                width: 130px;
+                font-size: 14px;
+                color: #be4141; }
+              .welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des .price {
+                width: 130px;
+                height: 16px; }
+              .welfareService .fuli .shopmian .mianC .goodscon .goodsbox .des a {
+                width: 90px;
+                height: 28px;
+                line-height: 28px;
+                background: #be4141;
+                font-size: 12px;
+                color: #ffffff;
+                display: block;
+                text-align: center;
+                border-radius: 1px; }
+      .welfareService .fuli .shopmian .mianR {
+        float: left;
+        width: 242px;
+        height: 376px;
+        background-color: #ffffff;
+        padding-left: 21px;
+        padding-right: 21px; }
+        .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 {
+          padding-top: 10px;
+          margin-bottom: 30px; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 h2 {
+            float: left; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 span {
+            float: right;
+            padding-top: 5px; }
+            .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox1 span a {
+              font-size: 12px;
+              color: #333333; }
+        .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box {
+          float: left;
+          width: 130px;
+          height: 49px;
+          margin-left: 5px;
+          margin-bottom: 20px; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box img {
+            display: block;
+            width: 50px;
+            height: 50px;
+            float: left; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box h4 {
+            width: 230px;
+            height: 19px;
+            font-size: 14px;
+            color: #333333;
+            text-overflow: ellipsis;
+            margin-bottom: 10px; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box div {
+            width: 150px; }
+            .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box div p {
+              font-size: 14px;
+              color: #be4141;
+              float: left; }
+            .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox2 .box div span {
+              font-size: 14px;
+              color: #ccc;
+              float: right; }
+        .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 {
+          padding-top: 10px;
+          margin-bottom: 30px; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 h2 {
+            float: left; }
+          .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 span {
+            float: right;
+            padding-top: 5px; }
+            .welfareService .fuli .shopmian .mianR .mianRbox .mianRbox3 span a {
+              font-size: 12px;
+              color: #333333; }
 
 /* 居家生活*/
 .live {
@@ -469,92 +387,74 @@ html, body {
   background: #FFFFFF;
   padding-top: 50px;
   margin: auto;
-  position: relative; 
-}
-.live .liveT {
-  width: 1090px;
-  height: 48px; 
-}
-.live .liveT h1 {
-  width: 112px;
-  height: 28px;
-  color: #333333;
-  font-size: 28px;
-  font-weight: bolder;
-  float: left;
-  margin-right: 260px; 
-}
-.live .liveT ul {
-  padding-top: 15px; 
-}
-.live .liveT ul li {
-  font-size: 14px;
-  float: left;
-  margin-right: 12px;
-  cursor: pointer; 
-}
-.live .liveT ul li:hover {
-  color: #bbb; 
-}
-.live .liveT ul i {
-  float: left;
-  margin-right: 12px; 
-}
-.live .liveT ul p {
-  padding-left: 30px;
-  float: right;
-  cursor: pointer;
-  font-size: 14px; 
-}
-.live .liveT ul p:hover {
-  color: #bbb; 
-}
-.live .banner2 {
-  margin-bottom: 20px; 
-}
-.live .banner2 .swiper-slide swiper-wrapper img {
-  display: block;
-  width: 1090px;
-  height: 310px; 
-}
-.live .goodscon {
-  width: 1100px;
-  height: 400px; 
-}
-.live .goodscon .goodsBox {
-  background: #FFFFFF;
-  overflow: hidden; 
-}
-.live .goodscon .goodsBox div {
-  width: 265px;
-  float: left;
-  background: #F4F4F4;
-  margin-right: 10px;
-  text-align: center; 
-}
-.live .goodscon .goodsBox div img {
-  width: 265px;
-  height: 265px;
-}
-.live .goodscon .goodsBox div span {
-  width: 1px;
-  height: 20px;
-  line-height: 20px;
-  color: #fff !important;
-  background-color: #e36844; 
-}
-.live .goodscon .goodsBox div p {
-  width: 160px;
-  font-size: 13px;
-  color: #333333;
-  font-weight: bolder;
-  text-align: center;
-  margin: auto; 
-}
-.live .goodscon .goodsBox div h4 {
-  font-size: 13px;
-  color: #d4282d; 
-}
+  position: relative; }
+  .live .liveT {
+    width: 1090px;
+    height: 48px; }
+    .live .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .live .liveT ul {
+      padding-top: 15px; }
+      .live .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .live .liveT ul li:hover {
+          color: #bbb; }
+      .live .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .live .liveT ul p {
+        padding-left: 30px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .live .liveT ul p:hover {
+          color: #bbb; }
+  .live .banner2 {
+    margin-bottom: 20px; }
+    .live .banner2 .swiper-slide swiper-wrapper img {
+      display: block;
+      width: 1090px;
+      height: 310px; }
+  .live .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .live .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .live .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .live .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .live .goodscon .goodsBox div span {
+          width: 1px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          background-color: #e36844; }
+        .live .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .live .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
 
 /*服饰鞋包*/
 .shoebag {
@@ -562,88 +462,71 @@ html, body {
   background: #FFFFFF;
   padding-top: 50px;
   margin: auto;
-  position: relative; 
-}
-.shoebag .liveT {
-  width: 1090px;
-  height: 48px; 
-}
-.shoebag .liveT h1 {
-  width: 112px;
-  height: 28px;
-  color: #333333;
-  font-size: 28px;
-  font-weight: bolder;
-  float: left;
-  margin-right: 260px; 
-}
-.shoebag .liveT ul {
-  padding-top: 15px; 
-}
-.shoebag .liveT ul li {
-  font-size: 14px;
-  float: left;
-  margin-right: 12px;
-  cursor: pointer; 
-}
-.shoebag .liveT ul li:hover {
-  color: #bbb; 
-}
-.shoebag .liveT ul i {
-  float: left;
-  margin-right: 12px; 
-}
-.shoebag .liveT ul p {
-  padding-left: 10px;
-  float: right;
-  cursor: pointer;
-  font-size: 14px; 
-}
-.shoebag .liveT ul p:hover {
-  color: #bbb; 
-}
-.shoebag .imgBox {
-  width: 1090px;
-  height: 310px; 
-}
-.shoebag .goodscon {
-  width: 1100px;
-  height: 400px; 
-}
-.shoebag .goodscon .goodsBox {
-  background: #FFFFFF;
-  overflow: hidden; 
-}
-.shoebag .goodscon .goodsBox div {
-  width: 265px;
-  float: left;
-  background: #F4F4F4;
-  margin-right: 10px;
-  text-align: center; 
-}
-.shoebag .goodscon .goodsBox div img {
-  width: 265px;
-  height: 265px; 
-}
-.shoebag .goodscon .goodsBox div span {
-  width: 1px;
-  height: 20px;
-  line-height: 20px;
-  color: #fff !important;
-  background-color: #e36844; 
-}
-.shoebag .goodscon .goodsBox div p {
-  width: 160px;
-  font-size: 13px;
-  color: #333333;
-  font-weight: bolder;
-  text-align: center;
-  margin: auto; 
-}
-.shoebag .goodscon .goodsBox div h4 {
-  font-size: 13px;
-  color: #d4282d; 
-}
+  position: relative; }
+  .shoebag .liveT {
+    width: 1090px;
+    height: 48px; }
+    .shoebag .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .shoebag .liveT ul {
+      padding-top: 15px; }
+      .shoebag .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .shoebag .liveT ul li:hover {
+          color: #bbb; }
+      .shoebag .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .shoebag .liveT ul p {
+        padding-left: 10px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .shoebag .liveT ul p:hover {
+          color: #bbb; }
+  .shoebag .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .shoebag .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .shoebag .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .shoebag .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .shoebag .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .shoebag .goodscon .goodsBox div span {
+          width: 1px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          background-color: #e36844; }
+        .shoebag .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .shoebag .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
 
 /*美食酒水*/
 .food {
@@ -651,88 +534,71 @@ html, body {
   background: #FFFFFF;
   padding-top: 50px;
   margin: auto;
-  position: relative; 
-}
-.food .liveT {
-  width: 1090px;
-  height: 48px; 
-}
-.food .liveT h1 {
-  width: 112px;
-  height: 28px;
-  color: #333333;
-  font-size: 28px;
-  font-weight: bolder;
-  float: left;
-  margin-right: 260px; 
-}
-.food .liveT ul {
-  padding-top: 15px; 
-}
-.food .liveT ul li {
-  font-size: 14px;
-  float: left;
-  margin-right: 12px;
-  cursor: pointer; 
-}
-.food .liveT ul li:hover {
-  color: #bbb; 
-}
-.food .liveT ul i {
-  float: left;
-  margin-right: 12px; 
-}
-.food .liveT ul p {
-  padding-left: 30px;
-  float: right;
-  cursor: pointer;
-  font-size: 14px; 
-}
-.food .liveT ul p:hover {
-  color: #bbb; 
-}
-.food .imgBox {
-  width: 1090px;
-  height: 310px; 
-}
-.food .goodscon {
-  width: 1100px;
-  height: 400px; 
-}
-.food .goodscon .goodsBox {
-  background: #FFFFFF;
-  overflow: hidden; 
-}
-.food .goodscon .goodsBox div {
-  width: 265px;
-  float: left;
-  background: #F4F4F4;
-  margin-right: 10px;
-  text-align: center; 
-}
-.food .goodscon .goodsBox div img {
-  width: 265px;
-  height: 265px; 
-}
-.food .goodscon .goodsBox div span {
-  width: 1px;
-  height: 20px;
-  line-height: 20px;
-  color: #fff !important;
-  background-color: #e36844; 
-}
-.food .goodscon .goodsBox div p {
-  width: 160px;
-  font-size: 13px;
-  color: #333333;
-  font-weight: bolder;
-  text-align: center;
-  margin: auto; 
-}
-.food .goodscon .goodsBox div h4 {
-  font-size: 13px;
-  color: #d4282d; 
-}
+  position: relative; }
+  .food .liveT {
+    width: 1090px;
+    height: 48px; }
+    .food .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .food .liveT ul {
+      padding-top: 15px; }
+      .food .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .food .liveT ul li:hover {
+          color: #bbb; }
+      .food .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .food .liveT ul p {
+        padding-left: 30px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .food .liveT ul p:hover {
+          color: #bbb; }
+  .food .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .food .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .food .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .food .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .food .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .food .goodscon .goodsBox div span {
+          width: 1px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          background-color: #e36844; }
+        .food .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .food .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
 
 /*个护清洁*/
 .clean {
@@ -740,88 +606,71 @@ html, body {
   background: #FFFFFF;
   padding-top: 50px;
   margin: auto;
-  position: relative; 
-}
-.clean .liveT {
-  width: 1090px;
-  height: 48px; 
-}
-.clean .liveT h1 {
-  width: 112px;
-  height: 28px;
-  color: #333333;
-  font-size: 28px;
-  font-weight: bolder;
-  float: left;
-  margin-right: 260px; 
-}
-.clean .liveT ul {
-  padding-top: 15px; 
-}
-.clean .liveT ul li {
-  font-size: 14px;
-  float: left;
-  margin-right: 12px;
-  cursor: pointer; 
-}
-.clean .liveT ul li:hover {
-  color: #bbb; 
-}
-.clean .liveT ul i {
-  float: left;
-  margin-right: 12px; 
-}
-.clean .liveT ul p {
-  padding-left: 30px;
-  float: right;
-  cursor: pointer;
-  font-size: 14px; 
-}
-.clean .liveT ul p:hover {
-  color: #bbb; 
-}
-.clean .imgBox {
-  width: 1090px;
-  height: 310px;
-}
-.clean .goodscon {
-  width: 1100px;
-  height: 400px; 
-}
-.clean .goodscon .goodsBox {
-  background: #FFFFFF;
-  overflow: hidden;
-}
-.clean .goodscon .goodsBox div {
-  width: 265px;
-  float: left;
-  background: #F4F4F4;
-  margin-right: 10px;
-  text-align: center; 
-}
-.clean .goodscon .goodsBox div img {
-  width: 265px;
-  height: 265px; 
-}
-.clean .goodscon .goodsBox div span {
-  width: 1px;
-  height: 20px;
-  line-height: 20px;
-  color: #fff !important;
-  background-color: #e36844; 
-}
-.clean .goodscon .goodsBox div p {
-  width: 160px;
-  font-size: 13px;
-  color: #333333;
-  font-weight: bolder;
-  text-align: center;
-  margin: auto; 
-}
-.clean .goodscon .goodsBox div h4 {
-  font-size: 13px;
-  color: #d4282d; 
-}
+  position: relative; }
+  .clean .liveT {
+    width: 1090px;
+    height: 48px; }
+    .clean .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .clean .liveT ul {
+      padding-top: 15px; }
+      .clean .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .clean .liveT ul li:hover {
+          color: #bbb; }
+      .clean .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .clean .liveT ul p {
+        padding-left: 30px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .clean .liveT ul p:hover {
+          color: #bbb; }
+  .clean .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .clean .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .clean .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .clean .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .clean .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .clean .goodscon .goodsBox div span {
+          width: 1px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          background-color: #e36844; }
+        .clean .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .clean .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
 
 /*母婴亲子*/
 .baby {
@@ -829,86 +678,71 @@ html, body {
   background: #FFFFFF;
   padding-top: 50px;
   margin: auto;
-  position: relative; 
-}
-.baby .liveT {
-  width: 1090px;
-  height: 48px; 
-}
-.baby .liveT h1 {
-  width: 112px;
-  height: 28px;
-  color: #333333;
-  font-size: 28px;
-  font-weight: bolder;
-  float: left;
-  margin-right: 260px; 
-}
-.baby .liveT ul {
-  padding-top: 15px; 
-}
-.baby .liveT ul li {
-  font-size: 14px;
-  float: left;
-  margin-right: 12px;
-  cursor: pointer; 
-}
-.baby .liveT ul li:hover {
-  color: #bbb; 
-}
-.baby .liveT ul i {
-  float: left;
-  margin-right: 12px; 
-}
-.baby .liveT ul p {
-  padding-left: 30px;
-  float: right;
-  cursor: pointer;
-  font-size: 14px; 
-}
-.baby .liveT ul p:hover {
-  color: #bbb; 
-}
-.baby .imgBox {
-  width: 1090px;
-  height: 310px;
-}
-.baby .goodscon {
-  width: 1100px;
-  height: 400px; 
-}
-.baby .goodscon .goodsBox {
-  background: #FFFFFF;
-  overflow: hidden;
-}
-.baby .goodscon .goodsBox div {
-  width: 265px;
-  float: left;
-  background: #F4F4F4;
-  margin-right: 10px;
-  text-align: center; 
-}
-.baby .goodscon .goodsBox div img {
-  width: 265px;
-  height: 265px; 
-}
-.baby .goodscon .goodsBox div span {
-  width: 1px;
-  height: 20px;
-  line-height: 20px;
-  color: #fff !important;
-  background-color: #e36844; 
-}
-.baby .goodscon .goodsBox div p {
-  width: 160px;
-  font-size: 13px;
-  color: #333333;
-  font-weight: bolder;
-  text-align: center;
-  margin: auto; }
-.baby .goodscon .goodsBox div h4 {
-  font-size: 13px;
-  color: #d4282d; }
+  position: relative; }
+  .baby .liveT {
+    width: 1090px;
+    height: 48px; }
+    .baby .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .baby .liveT ul {
+      padding-top: 15px; }
+      .baby .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .baby .liveT ul li:hover {
+          color: #bbb; }
+      .baby .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .baby .liveT ul p {
+        padding-left: 30px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .baby .liveT ul p:hover {
+          color: #bbb; }
+  .baby .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .baby .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .baby .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .baby .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .baby .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .baby .goodscon .goodsBox div span {
+          width: 1px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          background-color: #e36844; }
+        .baby .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .baby .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
 
 /*运动旅行*/
 .travel {
@@ -917,73 +751,73 @@ html, body {
   padding-top: 50px;
   margin: auto;
   position: relative; }
-.travel .liveT {
-  width: 1090px;
-  height: 48px; }
-.travel .liveT h1 {
-  width: 112px;
-  height: 28px;
-  color: #333333;
-  font-size: 28px;
-  font-weight: bolder;
-  float: left;
-  margin-right: 217px; }
-.travel .liveT ul {
-  padding-top: 15px; }
-.travel .liveT ul li {
-  font-size: 14px;
-  float: left;
-  margin-right: 12px;
-  cursor: pointer; }
-.travel .liveT ul li:hover {
-  color: #bbb; }
-.travel .liveT ul i {
-  float: left;
-  margin-right: 12px; }
-.travel .liveT ul p {
-  padding-left: 9px;
-  float: right;
-  cursor: pointer;
-  font-size: 14px; }
-.travel .liveT ul p:hover {
-  color: #bbb; }
-.travel .banner2 {
+  .travel .liveT {
+    width: 1090px;
+    height: 48px; }
+    .travel .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 217px; }
+    .travel .liveT ul {
+      padding-top: 15px; }
+      .travel .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .travel .liveT ul li:hover {
+          color: #bbb; }
+      .travel .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .travel .liveT ul p {
+        padding-left: 9px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .travel .liveT ul p:hover {
+          color: #bbb; }
+  .travel .banner2 {
     margin-bottom: 20px; }
-.travel .banner2 .swiper-slide swiper-wrapper img {
-  display: block;
-  width: 1090px;
-  height: 310px; }
-.travel .goodscon {
-  width: 1100px;
-  height: 400px; }
-.travel .goodscon .goodsBox {
-  background: #FFFFFF;
-  overflow: hidden; }
-.travel .goodscon .goodsBox div {
-  width: 265px;
-  float: left;
-  background: #F4F4F4;
-  margin-right: 10px;
-  text-align: center; }
-.travel .goodscon .goodsBox div img {
-  width: 265px;
-  height: 265px; }
-.travel .goodscon .goodsBox div span {
-  width: 1px;
-  height: 20px;
-  line-height: 20px;
-  color: #fff !important;
-  background-color: #e36844; }
-.travel .goodscon .goodsBox div p {
-  width: 160px;
-  font-size: 13px;
-  color: #333333;
-  font-weight: bolder;
-  text-align: center;
-  margin: auto; }
-.travel .goodscon .goodsBox div h4 {
-  font-size: 13px;
-  color: #d4282d; }
+    .travel .banner2 .swiper-slide swiper-wrapper img {
+      display: block;
+      width: 1090px;
+      height: 310px; }
+  .travel .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .travel .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .travel .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .travel .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .travel .goodscon .goodsBox div span {
+          width: 1px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          background-color: #e36844; }
+        .travel .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .travel .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
 
 /*数码家电*/
 .numbercode {
@@ -992,70 +826,70 @@ html, body {
   padding-top: 50px;
   margin: auto;
   position: relative; }
-.numbercode .liveT {
-  width: 1090px;
-  height: 48px; }
-.numbercode .liveT h1 {
-  width: 112px;
-  height: 28px;
-  color: #333333;
-  font-size: 28px;
-  font-weight: bolder;
-  float: left;
-  margin-right: 260px; }
-.numbercode .liveT ul {
-  padding-top: 15px; }
-.numbercode .liveT ul li {
-  font-size: 14px;
-  float: left;
-  margin-right: 12px;
-  cursor: pointer; }
-.numbercode .liveT ul li:hover {
-  color: #bbb; }
-.numbercode .liveT ul i {
-  float: left;
-  margin-right: 12px; }
-.numbercode .liveT ul p {
-  padding-left: 30px;
-  float: right;
-  cursor: pointer;
-  font-size: 14px; }
-.numbercode .liveT ul p:hover {
-  color: #bbb; }
-.numbercode .imgBox {
-  width: 1090px;
-  height: 310px; }
-.numbercode .goodscon {
-  width: 1100px;
-  height: 400px; }
-.numbercode .goodscon .goodsBox {
-  background: #FFFFFF;
-  overflow: hidden; }
-.numbercode .goodscon .goodsBox div {
-  width: 265px;
-  float: left;
-  background: #F4F4F4;
-  margin-right: 10px;
-  text-align: center; }
-.numbercode .goodscon .goodsBox div img {
-  width: 265px;
-  height: 265px; }
-.numbercode .goodscon .goodsBox div span {
-  width: 1px;
-  height: 20px;
-  line-height: 20px;
-  color: #fff !important;
-  background-color: #e36844; }
-.numbercode .goodscon .goodsBox div p {
-  width: 160px;
-  font-size: 13px;
-  color: #333333;
-  font-weight: bolder;
-  text-align: center;
-  margin: auto; }
-.numbercode .goodscon .goodsBox div h4 {
-  font-size: 13px;
-  color: #d4282d; }
+  .numbercode .liveT {
+    width: 1090px;
+    height: 48px; }
+    .numbercode .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .numbercode .liveT ul {
+      padding-top: 15px; }
+      .numbercode .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .numbercode .liveT ul li:hover {
+          color: #bbb; }
+      .numbercode .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .numbercode .liveT ul p {
+        padding-left: 30px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .numbercode .liveT ul p:hover {
+          color: #bbb; }
+  .numbercode .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .numbercode .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .numbercode .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .numbercode .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .numbercode .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .numbercode .goodscon .goodsBox div span {
+          width: 1px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          background-color: #e36844; }
+        .numbercode .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .numbercode .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
 
 /*严选全球*/
 .global {
@@ -1064,70 +898,70 @@ html, body {
   padding-top: 50px;
   margin: auto;
   position: relative; }
-.global .liveT {
-  width: 1090px;
-  height: 48px; }
-.global .liveT h1 {
-  width: 112px;
-  height: 28px;
-  color: #333333;
-  font-size: 28px;
-  font-weight: bolder;
-  float: left;
-  margin-right: 260px; }
-.global .liveT ul {
-  padding-top: 15px; }
-.global .liveT ul li {
-  font-size: 14px;
-  float: left;
-  margin-right: 12px;
-  cursor: pointer; }
-.global .liveT ul li:hover {
-  color: #bbb; }
-.global .liveT ul i {
-  float: left;
-  margin-right: 12px; }
-.global .liveT ul p {
-  padding-left: 30px;
-  float: right;
-  cursor: pointer;
-  font-size: 14px; }
-.global .liveT ul p:hover {
-  color: #bbb; }
-.global .imgBox {
-  width: 1090px;
-  height: 310px; }
-.global .goodscon {
-  width: 1100px;
-  height: 400px; }
-.global .goodscon .goodsBox {
-  background: #FFFFFF;
-  overflow: hidden; }
-.global .goodscon .goodsBox div {
-  width: 265px;
-  float: left;
-  background: #F4F4F4;
-  margin-right: 10px;
-  text-align: center; }
-.global .goodscon .goodsBox div img {
-  width: 265px;
-  height: 265px; }
-.global .goodscon .goodsBox div span {
-  width: 1px;
-  height: 20px;
-  line-height: 20px;
-  color: #fff !important;
-  background-color: #e36844; }
-.global .goodscon .goodsBox div p {
-  width: 160px;
-  font-size: 13px;
-  color: #333333;
-  font-weight: bolder;
-  text-align: center;
-  margin: auto; }
-.global .goodscon .goodsBox div h4 {
-  font-size: 13px;
-  color: #d4282d; }
+  .global .liveT {
+    width: 1090px;
+    height: 48px; }
+    .global .liveT h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 260px; }
+    .global .liveT ul {
+      padding-top: 15px; }
+      .global .liveT ul li {
+        font-size: 14px;
+        float: left;
+        margin-right: 12px;
+        cursor: pointer; }
+        .global .liveT ul li:hover {
+          color: #bbb; }
+      .global .liveT ul i {
+        float: left;
+        margin-right: 12px; }
+      .global .liveT ul p {
+        padding-left: 30px;
+        float: right;
+        cursor: pointer;
+        font-size: 14px; }
+        .global .liveT ul p:hover {
+          color: #bbb; }
+  .global .imgBox {
+    width: 1090px;
+    height: 310px; }
+  .global .goodscon {
+    width: 1100px;
+    height: 400px; }
+    .global .goodscon .goodsBox {
+      background: #FFFFFF;
+      overflow: hidden; }
+      .global .goodscon .goodsBox div {
+        width: 265px;
+        float: left;
+        background: #F4F4F4;
+        margin-right: 10px;
+        text-align: center; }
+        .global .goodscon .goodsBox div img {
+          width: 265px;
+          height: 265px; }
+        .global .goodscon .goodsBox div span {
+          width: 1px;
+          height: 20px;
+          line-height: 20px;
+          color: #fff !important;
+          background-color: #e36844; }
+        .global .goodscon .goodsBox div p {
+          width: 160px;
+          font-size: 13px;
+          color: #333333;
+          font-weight: bolder;
+          text-align: center;
+          margin: auto; }
+        .global .goodscon .goodsBox div h4 {
+          font-size: 13px;
+          color: #d4282d; }
 
 /*甄选家*/
 .home {
@@ -1137,67 +971,67 @@ html, body {
   margin: auto;
   position: relative;
   margin-bottom: 70px; }
-.home .hometitie {
-  width: 1090px;
-  height: 48px; }
-.home .hometitie h1 {
-  width: 112px;
-  height: 28px;
-  color: #333333;
-  font-size: 28px;
-  font-weight: bolder;
-  float: left;
-  margin-right: 20px; }
-.home .hometitie p {
-  padding-top: 15px;
-  font-size: 14px;
-  float: left; }
-.home .homebox {
-  height: 380px;
-  padding-bottom: 50px; }
-.home .homebox .imgL {
-  float: left; }
-.home .homebox .imgL img {
-  width: 690px;
-  height: 380px;
-  display: block; }
-.home .homebox .imgR {
-  float: right;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 380px; }
-.home .homebox .imgR img {
-  width: 390px;
-  height: 185px;
-  display: block; }
+  .home .hometitie {
+    width: 1090px;
+    height: 48px; }
+    .home .hometitie h1 {
+      width: 112px;
+      height: 28px;
+      color: #333333;
+      font-size: 28px;
+      font-weight: bolder;
+      float: left;
+      margin-right: 20px; }
+    .home .hometitie p {
+      padding-top: 15px;
+      font-size: 14px;
+      float: left; }
+  .home .homebox {
+    height: 380px;
+    padding-bottom: 50px; }
+    .home .homebox .imgL {
+      float: left; }
+      .home .homebox .imgL img {
+        width: 690px;
+        height: 380px;
+        display: block; }
+    .home .homebox .imgR {
+      float: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 380px; }
+      .home .homebox .imgR img {
+        width: 390px;
+        height: 185px;
+        display: block; }
 
 /*大家都在说*/
 .everyonewrap {
   background: #f4f0ea; }
-.everyonewrap .everyone {
-  width: 1090px;
-  padding-top: 50px;
-  margin: auto; }
-.everyonewrap .everyone .everytitie {
-  width: 1090px;
-  height: 48px; }
-.everyonewrap .everyone .everytitie h1 {
-  height: 28px;
-  color: #333333;
-  font-size: 28px;
-  font-weight: bolder;
-  float: left;
-  margin-right: 20px; }
-.everyonewrap .everyone .everytitie p {
-  padding-top: 15px;
-  font-size: 14px;
-  float: left; }
-.everyonewrap .everyone .banner4 {
-  margin-bottom: 20px; }
-.everyonewrap .everyone .banner4 .swiper-slide swiper-wrapper img {
-  width: 355px;
-  height: 355px; }
+  .everyonewrap .everyone {
+    width: 1090px;
+    padding-top: 50px;
+    margin: auto; }
+    .everyonewrap .everyone .everytitie {
+      width: 1090px;
+      height: 48px; }
+      .everyonewrap .everyone .everytitie h1 {
+        height: 28px;
+        color: #333333;
+        font-size: 28px;
+        font-weight: bolder;
+        float: left;
+        margin-right: 20px; }
+      .everyonewrap .everyone .everytitie p {
+        padding-top: 15px;
+        font-size: 14px;
+        float: left; }
+    .everyonewrap .everyone .banner4 {
+      margin-bottom: 20px; }
+      .everyonewrap .everyone .banner4 .swiper-slide swiper-wrapper img {
+        width: 355px;
+        height: 355px; }
 
 /*客服服务*/
 .serve {
@@ -1206,95 +1040,95 @@ html, body {
   padding-top: 50px;
   margin: auto;
   padding-bottom: 50px; }
-.serve .serveL {
-  width: 363.33px;
-  height: 204px;
-  float: left;
-  text-align: center;
-  border-right: 1px solid #ccc; }
-.serve .serveL h1 {
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 28px;
-  line-height: 1;
-  color: #333333; }
-.serve .serveL .box {
-  text-align: center;
-  display: flex;
-  justify-content: center; }
-.serve .serveL .box .boxL {
-  width: 80px;
-  height: 100px;
-  line-height: 80px;
-  border: 1px solid #ccc;
-  text-align: center;
-  float: left;
-  margin-right: 30px; }
-.serve .serveL .box .boxR {
-  width: 80px;
-  height: 100px;
-  line-height: 80px;
-  float: left;
-  border: 1px solid #ccc;
-  text-align: center; }
-.serve .serveC {
-  width: 363.33px;
-  height: 204px;
-  float: left;
-  text-align: center;
-  border-right: 1px solid #ccc; }
-.serve .serveC h1 {
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 28px;
-  line-height: 1;
-  color: #333333; }
-.serve .serveC p {
-  margin: auto;
-  width: 288.33px;
-  height: 67px;
-  margin-bottom: 35px;
-  text-overflow: unset; }
-.serve .serveC .attention {
-  width: 288px;
-  height: 42px;
-  margin: auto;
-  padding-right: 50px; }
-.serve .serveC .attention span {
-  width: 63.5px;
-  height: 32px;
-  color: #333333;
-  margin-right: 30px;
-  margin-bottom: 0;
-  font-size: 14px;
-  line-height: 32px;
-  display: block;
-  float: left;
-  text-align: left; }
-.serve .serveC .attention img {
-  width: 40px;
-  height: 40px;
-  display: block;
-  float: right;
-  margin-right: 8px; }
-.serve .serveR {
-  width: 363.33px;
-  height: 204px;
-  float: left;
-  text-align: center;
-  border-right: 1px solid #ccc; }
-.serve .serveR h1 {
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 28px;
-  line-height: 1;
-  color: #333333; }
-.serve .serveR img {
-  width: 104px;
-  height: 104px;
-  display: block;
-  margin: auto; }
-.serve .serveR p {
+  .serve .serveL {
+    width: 363.33px;
+    height: 204px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ccc; }
+    .serve .serveL h1 {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 28px;
+      line-height: 1;
+      color: #333333; }
+    .serve .serveL .box {
+      text-align: center;
+      display: flex;
+      justify-content: center; }
+      .serve .serveL .box .boxL {
+        width: 80px;
+        height: 100px;
+        line-height: 80px;
+        border: 1px solid #ccc;
+        text-align: center;
+        float: left;
+        margin-right: 30px; }
+      .serve .serveL .box .boxR {
+        width: 80px;
+        height: 100px;
+        line-height: 80px;
+        float: left;
+        border: 1px solid #ccc;
+        text-align: center; }
+  .serve .serveC {
+    width: 363.33px;
+    height: 204px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ccc; }
+    .serve .serveC h1 {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 28px;
+      line-height: 1;
+      color: #333333; }
+    .serve .serveC p {
+      margin: auto;
+      width: 288.33px;
+      height: 67px;
+      margin-bottom: 35px;
+      text-overflow: unset; }
+    .serve .serveC .attention {
+      width: 288px;
+      height: 42px;
+      margin: auto;
+      padding-right: 50px; }
+      .serve .serveC .attention span {
+        width: 63.5px;
+        height: 32px;
+        color: #333333;
+        margin-right: 30px;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 32px;
+        display: block;
+        float: left;
+        text-align: left; }
+      .serve .serveC .attention img {
+        width: 40px;
+        height: 40px;
+        display: block;
+        float: right;
+        margin-right: 8px; }
+  .serve .serveR {
+    width: 363.33px;
+    height: 204px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ccc; }
+    .serve .serveR h1 {
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 28px;
+      line-height: 1;
+      color: #333333; }
+    .serve .serveR img {
+      width: 104px;
+      height: 104px;
+      display: block;
+      margin: auto; }
+    .serve .serveR p {
       color: #b4a078;
       font-size: 12px;
       margin-top: 3px; }
@@ -1302,78 +1136,71 @@ html, body {
 /*foot*/
 .foot {
   background: #414141; }
-.foot .footmian {
-  width: 1090px;
-  margin: auto;
-  padding-top: 30px; }
-.foot .footmian img {
-  display: block;
-  width: 1090px;
-  height: 50px;
-  margin-bottom: 30px; }
-.foot .footmian .footcon .footcon-t1 {
-  border-top: 1px solid #eee;
-  padding-top: 30px;
-  display: flex;
-  justify-content: center; }
-.foot .footmian .footcon .footcon-t1 a {
-  color: #999999;
-  font-size: 12px;
-  margin: 0 8px; }
-.foot .footmian .footcon .footcon-t1 a:hover {
-  color: #FFFFFF; }
-.foot .footmian .footcon .footcon-t1 span {
-  color: #999999; }
-.foot .footmian .footcon .footcon-t2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px; }
-.foot .footmian .footcon .footcon-t2 a {
-  color: #999999;
-  font-size: 12px;
-  margin: 0 3px; }
-.foot .footmian .footcon .footcon-t2 a:hover {
-  color: #FFFFFF; }
-.foot .footmian .footcon .footcon-t2 span {
-  font-size: 12px;
-  color: #999999; }
-.foot .footmian .footcon .footcon-t3 {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px; }
-.foot .footmian .footcon .footcon-t3 a {
-  color: #999999;
-  font-size: 12px;
-  margin: 0 3px; }
-.foot .footmian .footcon .footcon-t3 a:hover {
-  color: #FFFFFF; 
-}
- .foot .footmian .footcon .footcon-t3 span {
-  font-size: 12px;
-  color: #999999; 
-}
-.foot .footmian .footcon .footcon-t4 {
-  display: flex;
-  justify-content: center;
-  margin-top: 5px; 
-}
-.foot .footmian .footcon .footcon-t4 a {
-  color: #999999;
-  font-size: 12px;
-  margin: 0 3px;
-  padding-top: 5px; 
-}
-.foot .footmian .footcon .footcon-t4 a:hover {
-  color: #FFFFFF; 
-}
-.foot .footmian .footcon .footcon-t4 span {
-  font-size: 12px;
-  color: #999999;
-  padding-top: 5px; 
-}
-.foot .footmian .footcon .footcon-t4 img {
-  width: 23px;
-  height: 25px;
-  margin-left: 8px;
-  cursor: pointer; 
-}
+  .foot .footmian {
+    width: 1090px;
+    margin: auto;
+    padding-top: 30px; }
+    .foot .footmian img {
+      display: block;
+      width: 1090px;
+      height: 50px;
+      margin-bottom: 30px; }
+    .foot .footmian .footcon .footcon-t1 {
+      border-top: 1px solid #eee;
+      padding-top: 30px;
+      display: flex;
+      justify-content: center; }
+      .foot .footmian .footcon .footcon-t1 a {
+        color: #999999;
+        font-size: 12px;
+        margin: 0 8px; }
+        .foot .footmian .footcon .footcon-t1 a:hover {
+          color: #FFFFFF; }
+      .foot .footmian .footcon .footcon-t1 span {
+        color: #999999; }
+    .foot .footmian .footcon .footcon-t2 {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px; }
+      .foot .footmian .footcon .footcon-t2 a {
+        color: #999999;
+        font-size: 12px;
+        margin: 0 3px; }
+        .foot .footmian .footcon .footcon-t2 a:hover {
+          color: #FFFFFF; }
+      .foot .footmian .footcon .footcon-t2 span {
+        font-size: 12px;
+        color: #999999; }
+    .foot .footmian .footcon .footcon-t3 {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px; }
+      .foot .footmian .footcon .footcon-t3 a {
+        color: #999999;
+        font-size: 12px;
+        margin: 0 3px; }
+        .foot .footmian .footcon .footcon-t3 a:hover {
+          color: #FFFFFF; }
+      .foot .footmian .footcon .footcon-t3 span {
+        font-size: 12px;
+        color: #999999; }
+    .foot .footmian .footcon .footcon-t4 {
+      display: flex;
+      justify-content: center;
+      margin-top: 5px; }
+      .foot .footmian .footcon .footcon-t4 a {
+        color: #999999;
+        font-size: 12px;
+        margin: 0 3px;
+        padding-top: 5px; }
+        .foot .footmian .footcon .footcon-t4 a:hover {
+          color: #FFFFFF; }
+      .foot .footmian .footcon .footcon-t4 span {
+        font-size: 12px;
+        color: #999999;
+        padding-top: 5px; }
+      .foot .footmian .footcon .footcon-t4 img {
+        width: 23px;
+        height: 25px;
+        margin-left: 8px;
+        cursor: pointer; }

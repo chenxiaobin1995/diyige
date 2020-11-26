@@ -1,3 +1,4 @@
+
 $(function(){
     $.ajax({
         url:"data/goods.json",
@@ -25,7 +26,7 @@ $(function(){
             })
         }
     })
-   
+   $
   
     
 })

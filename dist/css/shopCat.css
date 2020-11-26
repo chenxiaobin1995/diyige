@@ -1,0 +1,40 @@
+.goods {
+  padding-left: 166px;
+  line-height: 40px;
+  text-align: center; }
+
+.goods li {
+  margin: 10px 0;
+  overflow: hidden; }
+
+.goods li img {
+  width: 80px;
+  height: 80px;
+  float: left; }
+
+.goods li h3 {
+  float: left;
+  margin-left: 10px;
+  width: 340px;
+  padding: 10px 0; }
+
+.goods li p {
+  float: left;
+  margin-left: 120px;
+  width: 100px;
+  padding: 10px 0;
+  text-align: center; }
+
+.goods li span {
+  float: left;
+  margin-left: 30px;
+  width: 100px;
+  padding: 10px 0;
+  text-align: center; }
+
+.goods li em {
+  float: left;
+  margin-left: 30px;
+  width: 100px;
+  padding: 10px 0;
+  text-align: center; }
